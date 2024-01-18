@@ -6,7 +6,7 @@ console.log("")
 for (let item of menuByTagName) {
     const boxTitle = item.querySelector('h2').innerText
     const boxLength = item.querySelectorAll('li').length
-    console.log(boxTitle)
-    console.log(boxLength)
+    console.log("Category: ", boxTitle)
+    console.log("Elements: ", boxLength)
     console.log("")
 }
